@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MelonArt</string>
+
+    <!-- Facebook API -->
+    <string name="facebook_app_id">1100614656792589</string>
+    <string name="fb_login_protocol_scheme">fb1100614656792589</string>
+
+    <string name="search_title">Buscar</string>
+    <string name="score">Puntaje</string>
+    <string name="search_song">Buscar canción</string>
+    <string name="loading">Cargando...</string>
+    <string name="message_trivia">¿Qué canción está sonando?</string>
+    <string name="correct">Correcto</string>
+    <string name="incorrect">Incorrecto</string>
+    <string name="next_game">¡ Seguí jugando !</string>
+    <string name="close">Cerrar</string>
+    <string name="the_song_is">La canción era...</string>
+
+    <string name="incorrect_expresion">¡Incorrecto!</string>
+    <string name="acept">Aceptar</string>
+    <string name="error_no_conection">Por favor, conéctese a internet para continuar.</string>
+    <string name="open">Abrir</string>
+    <string name="session">¡ Inicia sesión para continuar !</string>
+    <string name="favourite_songs">Canciones Favoritas:</string>
+    <string name="mi_perfil">Mi Perfil</string>
+    <string name="buscar_canciones">Buscar Canciones</string>
+    <string name="close_session">Cerrar Sesión</string>
+    <string name="elige_tu_categor_a">¡ Elige tu categoría !</string>
+
+</resources>

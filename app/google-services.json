@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "972995716872",
+    "firebase_url": "https://melonartproject-d1b32.firebaseio.com",
+    "project_id": "melonartproject-d1b32",
+    "storage_bucket": "melonartproject-d1b32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972995716872:android:ff6faad9815d98ad",
+        "android_client_info": {
+          "package_name": "digitalhouse.com.a0319cpmoacn01arce_4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972995716872-fboeddtd87g87s50ajfsjmlf6uqdd3se.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvLUBK1oQmfKiYwpZVVjtykWURUPTqtHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972995716872-fboeddtd87g87s50ajfsjmlf6uqdd3se.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

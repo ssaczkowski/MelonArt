@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_melon"
+    tools:context=".view.userPage.UserFragment">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imagenPerfil"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:padding="15dp"
+                android:src="@drawable/albumseru" />
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imagenPerfil"
+                android:layout_centerInParent="true"
+                android:textAllCaps="true"
+                android:layout_margin="5dp"
+                android:text="Juan Perez"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:id="@+id/container_score"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/nombre"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fondo_score"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/userScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_centerInParent="true"
+                    android:text="2500" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_below="@+id/container_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:textAllCaps="true"
+                android:text="@string/favourite_songs"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/gradient_button_ligth"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/title"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlackGrey"
+                android:text="@string/favourite_songs"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewFavoritos"
+                android:layout_below="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>
