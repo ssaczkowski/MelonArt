@@ -43,7 +43,7 @@
                 android:layout_height="match_parent"
                 android:padding="10dp"
                 android:text="Cancion de Alicia en el Pais"
-                android:textColor="#4A613C"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="16dp"
                 android:textStyle="bold" />
 
@@ -59,7 +59,7 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:text="Bicicletas"
-                    android:textColor="#4A613C"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="10dp" />
 
                 <TextView
@@ -67,7 +67,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Seru Giran"
-                    android:textColor="#4A613C"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="10dp" />
             </LinearLayout>
 

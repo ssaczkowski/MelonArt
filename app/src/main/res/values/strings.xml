@@ -1,30 +1,6 @@
 <resources>
-    <string name="app_name">MELOMART</string>
+    <string name="app_name">Melomart</string>
 
-    <!-- Facebook API -->
-    <string name="facebook_app_id">1100614656792589</string>
-
-    <string name="fb_login_protocol_scheme">fb1100614656792589</string>
-
-    <string name="search_title">Search</string>
-    <string name="score">SCORE</string>
-    <string name="loading">Loading...</string>
-    <string name="message_trivia">What song is playing?</string>
-    <string name="correct">Correct !</string>
-    <string name="incorrect">Incorrect</string>
-
-    <string name="next_game">Continue</string>
-    <string name="close">Close</string>
-    <string name="incorrect_expresion">Incorrect!</string>
-    <string name="the_song_is">The song is...</string>
-    <string name="acept">Accept</string>
-    <string name="error_no_conection">Please connect to the internet to continue.</string>
-    <string name="open">Open</string>
-    <string name="session">Login to continue!</string>
-    <string name="favourite_songs">Favourite Songs:</string>
-    <string name="mi_perfil">My Profile</string>
-    <string name="buscar_canciones">Search Songs</string>
-    <string name="close_session">Log out</string>
-    <string name="elige_tu_categor_a">Choose your category!</string>
+    <string name="search_title">Buscar</string>
 
 </resources>

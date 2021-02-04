@@ -5,3 +5,5 @@ public interface CallBackGeneric<T> {
     void onFinish(T t);
 }
 
+
+

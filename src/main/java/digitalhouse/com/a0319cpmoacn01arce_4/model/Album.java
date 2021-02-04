@@ -7,6 +7,9 @@ public class Album {
     @SerializedName("title")
     private String nombre;
 
+    @SerializedName("cover_medium")
+    private String imagen;
+
     public Album(){
 
     }
@@ -30,5 +33,13 @@ public class Album {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public String getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
     }
 }
